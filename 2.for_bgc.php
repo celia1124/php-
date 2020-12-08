@@ -18,7 +18,7 @@
 <?php for($i=0 ;$i<16 ;$i++): ?>
     <tr>
     <?php for($j=0 ;$j<16 ;$j++): ?>
-            <td class="data" style="background-color:#<?= sprintf("%x*%x",$i,$j)?>00;"></td>
+            <td class="data" style="background-color:#<?= sprintf("%x%x",$i,$j)?>0;"></td>
             <?php endfor; ?>
     </tr>
     <?php endfor; ?>
